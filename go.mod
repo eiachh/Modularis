@@ -1,4 +1,4 @@
-module github.com/modularis/modularis
+module github.com/eiachh/Modularis
 
 go 1.23.0
 
