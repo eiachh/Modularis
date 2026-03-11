@@ -6,8 +6,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/modularis/modularis/internal/service"
-	"github.com/modularis/modularis/pkg"
+	"github.com/eiachh/Modularis/internal/service"
+	"github.com/eiachh/Modularis/pkg"
 )
 
 // CapabilitiesHandler serves capability discovery and invocation.

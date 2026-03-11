@@ -8,7 +8,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/modularis/modularis/pkg/display"
+	"github.com/eiachh/Modularis/pkg/display"
 )
 
 func main() {

@@ -6,9 +6,9 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/modularis/modularis/internal/domain"
-	"github.com/modularis/modularis/internal/registry"
-	"github.com/modularis/modularis/internal/ws"
+	"github.com/eiachh/Modularis/internal/domain"
+	"github.com/eiachh/Modularis/internal/registry"
+	"github.com/eiachh/Modularis/internal/ws"
 )
 
 // DisplayService handles display registration and lifecycle.

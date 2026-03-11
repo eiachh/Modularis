@@ -4,7 +4,7 @@ import "encoding/json"
 
 // Package pkg contains exported types for the Modularis API, following Go
 // conventions for reusability by third parties/clients/adapters (e.g.,
-// import "github.com/modularis/modularis/pkg"). This keeps the public
+// import "github.com/eiachh/Modularis/pkg"). This keeps the public
 // command interface separate from internal/domain. Utils (e.g.,
 // validation) are in utils.go.
 

@@ -10,8 +10,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/modularis/modularis/pkg/agent"
-	"github.com/modularis/modularis/pkg/client"
+	"github.com/eiachh/Modularis/pkg/agent"
+	"github.com/eiachh/Modularis/pkg/client"
 )
 
 func main() {

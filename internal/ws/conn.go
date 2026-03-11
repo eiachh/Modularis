@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"sync"
 
+	"github.com/eiachh/Modularis/internal/domain"
 	"github.com/gorilla/websocket"
-	"github.com/modularis/modularis/internal/domain"
 )
 
 // Conn wraps a raw gorilla WebSocket connection with thread-safe write

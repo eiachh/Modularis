@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"log/slog"
 
-	"github.com/modularis/modularis/internal/domain"
-	"github.com/modularis/modularis/internal/registry"
-	"github.com/modularis/modularis/internal/ws"
-	"github.com/modularis/modularis/pkg"
+	"github.com/eiachh/Modularis/internal/domain"
+	"github.com/eiachh/Modularis/internal/registry"
+	"github.com/eiachh/Modularis/internal/ws"
+	"github.com/eiachh/Modularis/pkg"
 )
 
 // CapabilitiesService handles capability discovery and command invocation.

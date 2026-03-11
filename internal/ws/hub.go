@@ -4,7 +4,7 @@ import (
 	"log/slog"
 	"sync"
 
-	"github.com/modularis/modularis/internal/domain"
+	"github.com/eiachh/Modularis/internal/domain"
 )
 
 // Hub keeps track of every active WebSocket connection (keyed by ID after

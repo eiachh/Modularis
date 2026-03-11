@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/modularis/modularis/internal/domain"
+	"github.com/eiachh/Modularis/internal/domain"
 )
 
 // Registry is a thread-safe, in-memory store that tracks all agents that

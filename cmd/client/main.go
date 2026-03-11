@@ -12,18 +12,18 @@ import (
 
 	// pkg for the shared public InvokeCommand + Validate util (moved to pkg/
 	// as requested for third-party availability per Go conventions; importable
-	// as "github.com/modularis/modularis/pkg").
-	"github.com/modularis/modularis/pkg"
+	// as "github.com/eiachh/Modularis/pkg").
+	"github.com/eiachh/Modularis/pkg"
 	// domain for internal types (CapabilitySummary, CommandResultPayload).
-	"github.com/modularis/modularis/internal/domain"
+	"github.com/eiachh/Modularis/internal/domain"
 )
 
 // Client is a dummy client for interacting with the orchestrator. It fetches
 // and stores capabilities for validation, and can assemble command send
 // packages for agent functions.
 type Client struct {
-	log          *slog.Logger
-	serverURL    string
+	log       *slog.Logger
+	serverURL string
 	// capabilities stores fetched caps (from domain.CapabilitySummary),
 	// keyed by "agent_name:function_name" for fast lookup + validation before
 	// assembling InvokeCommand (from pkg).

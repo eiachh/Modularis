@@ -9,9 +9,9 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/gorilla/websocket"
 
-	"github.com/modularis/modularis/internal/domain"
-	"github.com/modularis/modularis/internal/service"
-	"github.com/modularis/modularis/internal/ws"
+	"github.com/eiachh/Modularis/internal/domain"
+	"github.com/eiachh/Modularis/internal/service"
+	"github.com/eiachh/Modularis/internal/ws"
 )
 
 var upgrader = websocket.Upgrader{
@@ -156,4 +156,3 @@ func (h *AgentHandler) sendError(conn *ws.Conn, code, msg string) error {
 		Message: msg,
 	})
 }
-

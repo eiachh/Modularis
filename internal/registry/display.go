@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/modularis/modularis/internal/domain"
+	"github.com/eiachh/Modularis/internal/domain"
 )
 
 // DisplayRegistry is a thread-safe, in-memory store that tracks all display

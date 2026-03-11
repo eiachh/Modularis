@@ -11,7 +11,7 @@ import (
 
 	"github.com/gorilla/websocket"
 
-	"github.com/modularis/modularis/internal/domain"
+	"github.com/eiachh/Modularis/internal/domain"
 )
 
 func main() {

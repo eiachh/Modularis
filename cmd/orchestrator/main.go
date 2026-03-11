@@ -10,10 +10,10 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/modularis/modularis/internal/handler"
-	"github.com/modularis/modularis/internal/registry"
-	"github.com/modularis/modularis/internal/service"
-	"github.com/modularis/modularis/internal/ws"
+	"github.com/eiachh/Modularis/internal/handler"
+	"github.com/eiachh/Modularis/internal/registry"
+	"github.com/eiachh/Modularis/internal/service"
+	"github.com/eiachh/Modularis/internal/ws"
 )
 
 func main() {
